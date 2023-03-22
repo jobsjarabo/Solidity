@@ -21,19 +21,19 @@ contract simple {
         return number;
     }
 
-    function setSignedInt(int _number) public {
-        signedInt = _number;
+    function setSignedInt(int _signedInt) public {
+        signedInt = _signedInt;
     }
 
     function getSignedInt() public view returns(int){
         return signedInt;
     }
     
-    function setString(string memory _str) public {
+    function setStr(string memory _str) public {
         str = _str;
     }
 
-    function getString() public view returns(string memory) {
+    function getStr() public view returns(string memory) {
         return str;
     }
 
